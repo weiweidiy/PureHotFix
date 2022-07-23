@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<linker>
+	<assembly fullname="UnityEngine" preserve="all" />
+	<assembly fullname="mscorlib" preserve="all" />
+	<assembly fullname="System.Core" preserve="all" />
+	<assembly fullname="UnityEngine.CoreModule" preserve="all" />
+	
+
+</linker>

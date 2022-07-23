@@ -20,16 +20,18 @@ public class HuaTuoFacade : IHotFixFacade
             return;
         }
         //初始化应用
-        var appType = DLL.GetType("HotFix.App");
-        var mainMethod = appType.GetMethod("Main");
-        var assembly = mainMethod.Invoke(null, null) as Assembly;
+        var appType = DLL.GetType("Game.Launcher");
+        var game = Activator.CreateInstance(appType, true);
+        var mainMethod = appType.GetMethod("Launch");
+        var assembly = mainMethod.Invoke(game, null) as Assembly;
 
         //启动游戏
         //var gameDll = AppDomain.CurrentDomain.GetAssemblies().First(assembly => assembly.GetName().Name == "Game");
-        var type = assembly.GetType("Game.Main");
-        var game = Activator.CreateInstance(type, true);
-        var method = type.GetMethod("Startup");
-        method.Invoke(game, null);
+        //启动游戏
+        //var type = assembly.GetType("Game.Main");
+        //var game = Activator.CreateInstance(type, true);
+        //var method = type.GetMethod("Startup");
+        //method.Invoke(game, null);
 
         //var appType = assembly.GetType("HotFixModule.Module");
         //object obj = Activator.CreateInstance(appType, true);

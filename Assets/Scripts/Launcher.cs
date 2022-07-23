@@ -14,7 +14,7 @@ public class Launcher : MonoBehaviour
         Assembly dll = null;
         try
         {
-            dll = hotFix.LoadAssembly("Launcher_dll");
+            dll = hotFix.LoadAssembly("Game_dll");
             //var dll = AppDomain.CurrentDomain.GetAssemblies().First(assembly => assembly.GetName().Name == "HotFixMain");
             Debug.Assert(dll != null, "dll is null");
 
