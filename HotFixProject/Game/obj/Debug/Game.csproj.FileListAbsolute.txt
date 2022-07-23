@@ -1,6 +1,7 @@
 D:\UnityProjects\PureHotFix\PureHotFix\Dll\Game.dll
 D:\UnityProjects\PureHotFix\PureHotFix\Dll\Game.pdb
-D:\UnityProjects\PureHotFix\PureHotFix\HotFixProject\Game\obj\Debug\Game.csprojAssemblyReference.cache
 D:\UnityProjects\PureHotFix\PureHotFix\HotFixProject\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
 D:\UnityProjects\PureHotFix\PureHotFix\HotFixProject\Game\obj\Debug\Game.dll
 D:\UnityProjects\PureHotFix\PureHotFix\HotFixProject\Game\obj\Debug\Game.pdb
+D:\UnityProjects\PureHotFix\PureHotFix\HotFixProject\Game\obj\Debug\Game.csproj.CopyComplete
+D:\UnityProjects\PureHotFix\PureHotFix\HotFixProject\Game\obj\Debug\Game.csprojAssemblyReference.cache
